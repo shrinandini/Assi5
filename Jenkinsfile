@@ -8,7 +8,7 @@ stage('Build') {
 
 steps {
 
-echo "HelloWorld"
+sh javac
 
 }
 
