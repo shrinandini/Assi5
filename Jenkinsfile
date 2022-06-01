@@ -7,8 +7,7 @@ stages {
 stage('Build') {
 
 steps {
-
-sh 'javac hello.java'
+bat 'javac hello.java'
 
 }
 
@@ -18,7 +17,7 @@ stage('Run') {
 
 steps {
 
-sh 'java hello'
+bat 'java hello'
 }
 }
 }
